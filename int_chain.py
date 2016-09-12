@@ -17,7 +17,7 @@ def getlen(n):
 
 def getDepth(n):
 	count = 0
-	while not (getlen(n) == 4):
+	while not (n == 4):
 		n = getlen(n)
 		count += 1
 	else: return count
